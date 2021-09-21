@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Værelse {
     public static void main(String[] args) {
         Lamp kitchenLamp = new Lamp(true);
         System.out.println("Køkkenlyset er: " + kitchenLamp);
