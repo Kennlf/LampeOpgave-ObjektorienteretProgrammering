@@ -24,5 +24,9 @@ public class Værelse {
         bedLamp.lightSwitch();
         System.out.println("Sengelampen er: " + bedLamp);
 
+        System.out.println(Lamp.getCount());
+        System.out.println(kitchenLamp.getCount1());
+        System.out.println(bedLamp.getCount1());
+
     }
 }
